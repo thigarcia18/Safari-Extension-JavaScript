@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF58E9A4203CB87200E43122 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF58E9A3203CB87200E43122 /* AppDelegate.swift */; };
+		AF58E9A6203CB87200E43122 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF58E9A5203CB87200E43122 /* ViewController.swift */; };
+		AF58E9A9203CB87200E43122 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF58E9A7203CB87200E43122 /* Main.storyboard */; };
+		AF58E9AB203CB87200E43122 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF58E9AA203CB87200E43122 /* Assets.xcassets */; };
+		AF58E9AE203CB87200E43122 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF58E9AC203CB87200E43122 /* LaunchScreen.storyboard */; };
+		AF58E9BC203CB97B00E43122 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF58E9BB203CB97B00E43122 /* ActionViewController.swift */; };
+		AF58E9BF203CB97B00E43122 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF58E9BD203CB97B00E43122 /* MainInterface.storyboard */; };
+		AF58E9C3203CB97B00E43122 /* Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AF58E9B9203CB97B00E43122 /* Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AF58E9C9203CBCDA00E43122 /* Action.js in Resources */ = {isa = PBXBuildFile; fileRef = AF58E9C8203CBCDA00E43122 /* Action.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF58E9C1203CB97B00E43122 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF58E998203CB87200E43122 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF58E9B8203CB97B00E43122;
+			remoteInfo = Extension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AF58E9C7203CB97B00E43122 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AF58E9C3203CB97B00E43122 /* Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AF58E9A0203CB87200E43122 /* Safari Extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safari Extension.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF58E9A3203CB87200E43122 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF58E9A5203CB87200E43122 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF58E9A8203CB87200E43122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF58E9AA203CB87200E43122 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF58E9AD203CB87200E43122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF58E9AF203CB87200E43122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF58E9B9203CB97B00E43122 /* Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF58E9BB203CB97B00E43122 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		AF58E9BE203CB97B00E43122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		AF58E9C0203CB97B00E43122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF58E9C8203CBCDA00E43122 /* Action.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Action.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF58E99D203CB87200E43122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF58E9B6203CB97B00E43122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF58E997203CB87200E43122 = {
+			isa = PBXGroup;
+			children = (
+				AF58E9A2203CB87200E43122 /* Safari Extension */,
+				AF58E9BA203CB97B00E43122 /* Extension */,
+				AF58E9A1203CB87200E43122 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF58E9A1203CB87200E43122 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF58E9A0203CB87200E43122 /* Safari Extension.app */,
+				AF58E9B9203CB97B00E43122 /* Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF58E9A2203CB87200E43122 /* Safari Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AF58E9A3203CB87200E43122 /* AppDelegate.swift */,
+				AF58E9A5203CB87200E43122 /* ViewController.swift */,
+				AF58E9A7203CB87200E43122 /* Main.storyboard */,
+				AF58E9AA203CB87200E43122 /* Assets.xcassets */,
+				AF58E9AC203CB87200E43122 /* LaunchScreen.storyboard */,
+				AF58E9AF203CB87200E43122 /* Info.plist */,
+			);
+			path = "Safari Extension";
+			sourceTree = "<group>";
+		};
+		AF58E9BA203CB97B00E43122 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AF58E9BB203CB97B00E43122 /* ActionViewController.swift */,
+				AF58E9BD203CB97B00E43122 /* MainInterface.storyboard */,
+				AF58E9C0203CB97B00E43122 /* Info.plist */,
+				AF58E9C8203CBCDA00E43122 /* Action.js */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF58E99F203CB87200E43122 /* Safari Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF58E9B2203CB87200E43122 /* Build configuration list for PBXNativeTarget "Safari Extension" */;
+			buildPhases = (
+				AF58E99C203CB87200E43122 /* Sources */,
+				AF58E99D203CB87200E43122 /* Frameworks */,
+				AF58E99E203CB87200E43122 /* Resources */,
+				AF58E9C7203CB97B00E43122 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF58E9C2203CB97B00E43122 /* PBXTargetDependency */,
+			);
+			name = "Safari Extension";
+			productName = "Safari Extension";
+			productReference = AF58E9A0203CB87200E43122 /* Safari Extension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF58E9B8203CB97B00E43122 /* Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF58E9C4203CB97B00E43122 /* Build configuration list for PBXNativeTarget "Extension" */;
+			buildPhases = (
+				AF58E9B5203CB97B00E43122 /* Sources */,
+				AF58E9B6203CB97B00E43122 /* Frameworks */,
+				AF58E9B7203CB97B00E43122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Extension;
+			productName = Extension;
+			productReference = AF58E9B9203CB97B00E43122 /* Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF58E998203CB87200E43122 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = iGarcia;
+				TargetAttributes = {
+					AF58E99F203CB87200E43122 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					AF58E9B8203CB97B00E43122 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AF58E99B203CB87200E43122 /* Build configuration list for PBXProject "Safari Extension" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF58E997203CB87200E43122;
+			productRefGroup = AF58E9A1203CB87200E43122 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF58E99F203CB87200E43122 /* Safari Extension */,
+				AF58E9B8203CB97B00E43122 /* Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF58E99E203CB87200E43122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF58E9AE203CB87200E43122 /* LaunchScreen.storyboard in Resources */,
+				AF58E9AB203CB87200E43122 /* Assets.xcassets in Resources */,
+				AF58E9A9203CB87200E43122 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF58E9B7203CB97B00E43122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF58E9C9203CBCDA00E43122 /* Action.js in Resources */,
+				AF58E9BF203CB97B00E43122 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF58E99C203CB87200E43122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF58E9A6203CB87200E43122 /* ViewController.swift in Sources */,
+				AF58E9A4203CB87200E43122 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF58E9B5203CB97B00E43122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF58E9BC203CB97B00E43122 /* ActionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF58E9C2203CB97B00E43122 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF58E9B8203CB97B00E43122 /* Extension */;
+			targetProxy = AF58E9C1203CB97B00E43122 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF58E9A7203CB87200E43122 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF58E9A8203CB87200E43122 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF58E9AC203CB87200E43122 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF58E9AD203CB87200E43122 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AF58E9BD203CB97B00E43122 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF58E9BE203CB97B00E43122 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF58E9B0203CB87200E43122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF58E9B1203CB87200E43122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF58E9B3203CB87200E43122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XWJGD28CZ6;
+				INFOPLIST_FILE = "Safari Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iGarcia.Safari-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF58E9B4203CB87200E43122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XWJGD28CZ6;
+				INFOPLIST_FILE = "Safari Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iGarcia.Safari-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF58E9C5203CB97B00E43122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XWJGD28CZ6;
+				INFOPLIST_FILE = Extension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iGarcia.Safari-Extension.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF58E9C6203CB97B00E43122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XWJGD28CZ6;
+				INFOPLIST_FILE = Extension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iGarcia.Safari-Extension.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF58E99B203CB87200E43122 /* Build configuration list for PBXProject "Safari Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF58E9B0203CB87200E43122 /* Debug */,
+				AF58E9B1203CB87200E43122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF58E9B2203CB87200E43122 /* Build configuration list for PBXNativeTarget "Safari Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF58E9B3203CB87200E43122 /* Debug */,
+				AF58E9B4203CB87200E43122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF58E9C4203CB97B00E43122 /* Build configuration list for PBXNativeTarget "Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF58E9C5203CB97B00E43122 /* Debug */,
+				AF58E9C6203CB97B00E43122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF58E998203CB87200E43122 /* Project object */;
+}
